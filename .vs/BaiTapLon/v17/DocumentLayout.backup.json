@@ -1,38 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Visual Studio\\BaiTapLon\\",
+  "WorkspaceRootPath": "D:\\Net2\\BaiTapLon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\visual studio\\baitaplon\\baitaplon\\areas\\admin\\controllers\\booktypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\areas\\admin\\controllers\\booktypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\net2\\baitaplon\\baitaplon\\areas\\admin\\controllers\\approles1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\areas\\admin\\controllers\\approles1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\visual studio\\baitaplon\\baitaplon\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\net2\\baitaplon\\baitaplon\\areas\\admin\\controllers\\approlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\areas\\admin\\controllers\\approlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\visual studio\\baitaplon\\baitaplon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\net2\\baitaplon\\baitaplon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Views\\BookTypes\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiTapLon\\Areas\\Admin\\Views\\BookTypes\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\visual studio\\baitaplon\\baitaplon\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\visual studio\\baitaplon\\baitaplon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\net2\\baitaplon\\baitaplon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\visual studio\\baitaplon\\baitaplon\\migrations\\20241205072707_create_table_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\migrations\\20241205072707_create_table_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\net2\\baitaplon\\baitaplon\\areas\\admin\\views\\booktypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\areas\\admin\\views\\booktypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BooksController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiTapLon\\Areas\\Admin\\Controllers\\BooksController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\net2\\baitaplon\\baitaplon\\areas\\admin\\controllers\\booktypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\areas\\admin\\controllers\\booktypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\net2\\baitaplon\\baitaplon\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|d:\\net2\\baitaplon\\baitaplon\\areas\\admin\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A26A1-356F-4A4E-8557-2030F27618EB}|BaiTapLon\\BaiTapLon.csproj|solutionrelative:baitaplon\\areas\\admin\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,48 +57,60 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookTypesController.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BookTypesController.cs",
-              "RelativeDocumentMoniker": "BaiTapLon\\Areas\\Admin\\Controllers\\BookTypesController.cs",
-              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BookTypesController.cs",
-              "RelativeToolTip": "BaiTapLon\\Areas\\Admin\\Controllers\\BookTypesController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAABkAAAAvAAAAAAAAAA==",
+              "Title": "AppRoles1Controller.cs",
+              "DocumentMoniker": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\AppRoles1Controller.cs",
+              "RelativeDocumentMoniker": "BaiTapLon\\Areas\\Admin\\Controllers\\AppRoles1Controller.cs",
+              "ToolTip": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\AppRoles1Controller.cs",
+              "RelativeToolTip": "BaiTapLon\\Areas\\Admin\\Controllers\\AppRoles1Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:36:06.57Z",
+              "WhenOpened": "2024-12-08T14:49:15.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "BaiTapLon\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "BaiTapLon\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
+              "Title": "AppRolesController.cs",
+              "DocumentMoniker": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\AppRolesController.cs",
+              "RelativeDocumentMoniker": "BaiTapLon\\Areas\\Admin\\Controllers\\AppRolesController.cs",
+              "ToolTip": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\AppRolesController.cs",
+              "RelativeToolTip": "BaiTapLon\\Areas\\Admin\\Controllers\\AppRolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T07:27:38.823Z",
+              "WhenOpened": "2024-12-08T14:48:27.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20241205072707_Create_table_book.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs",
-              "RelativeDocumentMoniker": "BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs",
-              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs",
-              "RelativeToolTip": "BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABZAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "BookTypesController.cs",
+              "DocumentMoniker": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BookTypesController.cs",
+              "RelativeDocumentMoniker": "BaiTapLon\\Areas\\Admin\\Controllers\\BookTypesController.cs",
+              "ToolTip": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BookTypesController.cs",
+              "RelativeToolTip": "BaiTapLon\\Areas\\Admin\\Controllers\\BookTypesController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwBkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T07:27:08.016Z"
+              "WhenOpened": "2024-12-05T08:36:06.57Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\Visual Studio\\BaiTapLon\\BaiTapLon\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\..\\Visual Studio\\BaiTapLon\\BaiTapLon\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:27:38.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BooksController.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BooksController.cs",
+              "DocumentMoniker": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "BaiTapLon\\Areas\\Admin\\Controllers\\BooksController.cs",
-              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BooksController.cs",
+              "ToolTip": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Controllers\\BooksController.cs",
               "RelativeToolTip": "BaiTapLon\\Areas\\Admin\\Controllers\\BooksController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -100,11 +118,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Books.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Models\\Books.cs",
+              "DocumentMoniker": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Models\\Books.cs",
               "RelativeDocumentMoniker": "BaiTapLon\\Models\\Books.cs",
-              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Models\\Books.cs",
+              "ToolTip": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Models\\Books.cs",
               "RelativeToolTip": "BaiTapLon\\Models\\Books.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -112,39 +130,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\appsettings.json",
+              "DocumentMoniker": "D:\\Net2\\BaiTapLon\\BaiTapLon\\appsettings.json",
               "RelativeDocumentMoniker": "BaiTapLon\\appsettings.json",
-              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\appsettings.json",
+              "ToolTip": "D:\\Net2\\BaiTapLon\\BaiTapLon\\appsettings.json",
               "RelativeToolTip": "BaiTapLon\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-05T07:17:08.957Z"
+              "WhenOpened": "2024-12-05T07:17:08.957Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Program.cs",
+              "DocumentMoniker": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Program.cs",
               "RelativeDocumentMoniker": "BaiTapLon\\Program.cs",
-              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Program.cs",
+              "ToolTip": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Program.cs",
               "RelativeToolTip": "BaiTapLon\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEMAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T07:16:53.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Views\\BookTypes\\Index.cshtml",
+              "DocumentMoniker": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Views\\BookTypes\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTapLon\\Areas\\Admin\\Views\\BookTypes\\Index.cshtml",
-              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Views\\BookTypes\\Index.cshtml",
+              "ToolTip": "D:\\Net2\\BaiTapLon\\BaiTapLon\\Areas\\Admin\\Views\\BookTypes\\Index.cshtml",
               "RelativeToolTip": "BaiTapLon\\Areas\\Admin\\Views\\BookTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T07:36:30.409Z"
+              "WhenOpened": "2024-12-05T07:36:30.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20241205072707_Create_table_book.cs",
+              "DocumentMoniker": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs",
+              "RelativeDocumentMoniker": "..\\..\\Visual Studio\\BaiTapLon\\BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs",
+              "ToolTip": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs",
+              "RelativeToolTip": "..\\..\\Visual Studio\\BaiTapLon\\BaiTapLon\\Migrations\\20241205072707_Create_table_book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T07:27:08.016Z"
             }
           ]
         }

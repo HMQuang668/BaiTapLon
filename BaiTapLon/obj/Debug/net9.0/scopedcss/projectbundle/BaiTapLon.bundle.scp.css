@@ -1,51 +1,74 @@
 /* _content/BaiTapLon/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-epegekbqkt] {
+/* 
+a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+
 }
 
-a[b-epegekbqkt] {
+a {
   color: #0077cc;
 }
 
-.btn-primary[b-epegekbqkt] {
+.btn-primary {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-epegekbqkt], .nav-pills .show > .nav-link[b-epegekbqkt] {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top[b-epegekbqkt] {
+.border-top {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom[b-epegekbqkt] {
+.border-bottom {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow[b-epegekbqkt] {
+.box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy[b-epegekbqkt] {
+button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer[b-epegekbqkt] {
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+} */
+.sidebar[b-epegekbqkt] {
+  /* background: linear-gradient(to bottom, #2c3e50, #4b79a1); */
+  background-color: aquamarine;
+  min-height: 100vh;
+  color: white;
+}
+.sidebar a[b-epegekbqkt] {
+  color: white;
+  text-decoration: none;
+}
+.sidebar a:hover[b-epegekbqkt] {
+  text-decoration: underline;
+}
+.active[b-epegekbqkt] {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  
+}
+hr.border-light[b-epegekbqkt] {
+  border-color: #fff; /* Màu trắng */
+  border-width: 1px; /* Độ dày */
 }
 /* _content/BaiTapLon/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification

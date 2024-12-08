@@ -13,9 +13,9 @@ namespace BaiTapLon.Areas.Admin.Controllers
     [Area("Admin")]
     public class BookTypesController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly BTLContext _context;
 
-        public BookTypesController(ApplicationDbContext context)
+        public BookTypesController(BTLContext context)
         {
             _context = context;
         }

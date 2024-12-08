@@ -7,15 +7,16 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BaiTapLon.Data;
 using BaiTapLon.Models;
+using BaiTapLon.Areas.Admin.ViewModels;
 
 namespace BaiTapLon.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class BooksController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly BTLContext _context;
 
-        public BooksController(ApplicationDbContext context)
+        public BooksController(BTLContext context)
         {
             _context = context;
         }
@@ -23,8 +24,8 @@ namespace BaiTapLon.Areas.Admin.Controllers
         // GET: Books
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Books.Include(b => b.BookType);
-            return View(await applicationDbContext.ToListAsync());
+            var BTLContext = _context.Books.Include(b => b.BookType);
+            return View(await BTLContext.ToListAsync());
         }
 
         // GET: Books/Details/5
@@ -58,16 +59,31 @@ namespace BaiTapLon.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("BookId,BookName,Author,Publisher,BookTypeId,Quantity,Description,Image")] Books books)
+        public async Task<IActionResult> Create(BookVM model)
         {
             if (ModelState.IsValid)
             {
+                var books = new Books();
+                books.BookName = model.BookName;
+                books.Author = model.Author;
+                books.BookTypeId = model.BookTypeId;
+                books.BookType = model.BookType;
+                books.Description = model.Description;
+                books.Publisher = model.Publisher;
+                books.Quantity = model.Quantity;
+                var fileName = model.Image.FileName;
+                var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/wwwroot/Upload", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await model.Image.CopyToAsync(stream);
+                }
+                books.Image = "~/Upload/" + fileName;
                 _context.Add(books);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BookTypeId"] = new SelectList(_context.BookType, "BookTypeId", "BookTypeName", books.BookTypeId);
-            return View(books);
+            ViewData["BookTypeId"] = new SelectList(_context.BookType, "BookTypeId", "BookTypeName", model.BookTypeId);
+            return View(model);
         }
 
         // GET: Books/Edit/5

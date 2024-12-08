@@ -1,0 +1,16 @@
+@using BaiTapLon.Areas.Admin.ViewModels
+@model AssignRoleVM
+
+
+<form asp-action="AssignRole">
+    @foreach (var role in Model.AllRole)
+    {
+        <div>
+            <input class="checkbox" type="checkbox" id="@role.Id" name="SelectedRole" value="@role.Name"
+            @(Model.SelectedRole != null && Model.SelectedRole.Contains(role.Name) ? "checked" : "") />
+            <lable for="@role.Id">@role.Name</lable>
+        </div>
+    }
+    <input type="hidden" value="@Model.UserId" name="UserId">
+    <input type="submit" value="AssignRole" class="btn btn-primary">
+</form>

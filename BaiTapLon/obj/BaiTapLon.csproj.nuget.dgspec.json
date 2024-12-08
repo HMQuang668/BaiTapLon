@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\BaiTapLon.csproj": {}
+    "D:\\Net2\\BaiTapLon\\BaiTapLon\\BaiTapLon.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\BaiTapLon.csproj": {
+    "D:\\Net2\\BaiTapLon\\BaiTapLon\\BaiTapLon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\BaiTapLon.csproj",
+        "projectUniqueName": "D:\\Net2\\BaiTapLon\\BaiTapLon\\BaiTapLon.csproj",
         "projectName": "BaiTapLon",
-        "projectPath": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\BaiTapLon.csproj",
+        "projectPath": "D:\\Net2\\BaiTapLon\\BaiTapLon\\BaiTapLon.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio\\BaiTapLon\\BaiTapLon\\obj\\",
+        "outputPath": "D:\\Net2\\BaiTapLon\\BaiTapLon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

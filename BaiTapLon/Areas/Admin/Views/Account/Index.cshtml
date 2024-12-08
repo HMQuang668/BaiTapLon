@@ -1,0 +1,32 @@
+@using BaiTapLon.Areas.Admin.ViewModels
+@using Microsoft.AspNetCore.Identity;
+@model IEnumerable<UserWithRole>
+<table class="table">
+    <thead>
+        <th>Người dùng</th>
+        <th>Quyền</th>
+        <th>Hành động</th>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.User.UserName</td>
+                <td>@foreach (var role in item.Role)
+                    {
+                        <span>@role</span>
+                        <br>
+                    }
+                </td>
+                <td>
+                    <a asp-controller="Account" class="btn btn-primary" asp-action="AssignRole"
+                        asp-route-UserId="@item.User.Id">Assign</a>
+                    <a asp-controller="Account" class="btn btn-primary" asp-action="AddClaim"
+                        asp-route-UserId="@item.User.Id">Add Claim</a>
+                </td>
+            </tr>
+
+
+        }
+    </tbody>
+</table>
