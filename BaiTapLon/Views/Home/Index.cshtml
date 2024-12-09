@@ -1,8 +1,85 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chủ";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="bg-light py-5 text-center">
+    <div class="container-fluid">
+        <h1 class="display-4">Chào mừng đến với Thư viện</h1>
+        <p class="lead">Khám phá hàng nghìn cuốn sách và tài liệu phong phú ngay hôm nay.</p>
+        <a href="#categories" class="btn btn-primary btn-lg">Xem danh mục sách</a>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section id="categories" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Danh mục sách</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Fiction">
+                    <div class="card-body">
+                        <h5 class="card-title">Văn học</h5>
+                        <p class="card-text">Tận hưởng những tác phẩm kinh điển và hiện đại từ khắp nơi trên thế giới.
+                        </p>
+                        <a href="#" class="btn btn-primary">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Science">
+                    <div class="card-body">
+                        <h5 class="card-title">Khoa học</h5>
+                        <p class="card-text">Nâng cao kiến thức với các sách khoa học và nghiên cứu uy tín.</p>
+                        <a href="#" class="btn btn-primary">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="History">
+                    <div class="card-body">
+                        <h5 class="card-title">Lịch sử</h5>
+                        <p class="card-text">Khám phá những câu chuyện lịch sử hấp dẫn và ý nghĩa.</p>
+                        <a href="#" class="btn btn-primary">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Liên hệ</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Họ và tên</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nhập họ và tên">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Nhập email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Tin nhắn</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Nhập tin nhắn"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gửi</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h5>Địa chỉ</h5>
+                <p>123 Đường Sách, Thành phố ABC</p>
+                <h5>Email</h5>
+                <p>thuvien@domain.com</p>
+                <h5>Điện thoại</h5>
+                <p>+84 123 456 789</p>
+            </div>
+        </div>
+    </div>
+</section>

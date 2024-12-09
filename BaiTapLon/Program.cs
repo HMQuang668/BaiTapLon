@@ -1,9 +1,10 @@
 using BaiTapLon.Data;
 using BaiTapLon.Models;
+using BaiTapLon.Models.Process;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
-
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -24,6 +25,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LoginPath = $"/Identity/Account/Login";
 
 });
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddRazorPages();
 builder.Services.Configure<IdentityOptions>(options =>
 {

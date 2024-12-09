@@ -5,8 +5,8 @@
     @if (SignInManager.IsSignedIn(User))
     {
         <li class="nav-item dropdown">
-            <a class="nav-link text-dark dropdown-toggle" id="userDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
+            <a class="nav-link text-dark dropdown-toggle" style="font-size: 2em;" id="userDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="bi bi-person"></i>
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
@@ -22,7 +22,7 @@
     else
     {
         <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">
+            <a class="nav-link text-dark" style="font-size: 2em;" asp-area="Identity" asp-page="/Account/Login">
                 <i class="bi bi-person"></i>
             </a>
         </li>
